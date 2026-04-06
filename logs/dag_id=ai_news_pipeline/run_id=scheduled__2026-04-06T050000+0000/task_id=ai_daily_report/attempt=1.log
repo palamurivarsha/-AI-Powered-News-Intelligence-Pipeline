@@ -1,0 +1,54 @@
+{"timestamp":"2026-04-06T14:30:39.914941Z","level":"info","event":"Stats instance was created in PID 7 but accessed in PID 121. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-04-06T14:30:40.554204Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-04-06T14:30:40.558116Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ai_news_pipeline.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-06T14:30:40.588268Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/ai_news_pipeline.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2026-04-06T14:30:40.631502Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.632425Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.633027Z","level":"info","event":"Current task name:ai_daily_report","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.634536Z","level":"info","event":"Dag name:ai_news_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.948929Z","level":"info","event":"Report error: 'candidates'","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.954296Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.954975Z","level":"info","event":"========= AI WORLD NEWS BRIEFING =========","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.955842Z","level":"info","event":"  Date       : 2026-04-06 14:30:40","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.956571Z","level":"info","event":"  Articles   : 10","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.956982Z","level":"info","event":"  Positive   : 0","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.957362Z","level":"info","event":"  Negative   : 0","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.957736Z","level":"info","event":"  Neutral    : 10","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.958129Z","level":"info","event":"  Categories : {'general': 10}","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.958614Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.961058Z","level":"info","event":"  AI BRIEFING:","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.961800Z","level":"info","event":"  Daily report generation failed.","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.962767Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.963264Z","level":"info","event":"  ARTICLE ANALYSIS:","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.963659Z","level":"info","event":"  ----------------------------------------","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.964050Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.964421Z","level":"info","event":"  1. How rescue of US airman in remote part of Iran unfolded","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.964802Z","level":"info","event":"     Summary   : Analysis unavailable","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.965170Z","level":"info","event":"     Sentiment : NEUTRAL - N/A","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.965562Z","level":"info","event":"     Category  : general","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.965922Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.966320Z","level":"info","event":"  2. Trump declares victory after rescue but threats to US operat","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.966892Z","level":"info","event":"     Summary   : Analysis unavailable","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.967561Z","level":"info","event":"     Sentiment : NEUTRAL - N/A","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.968108Z","level":"info","event":"     Category  : general","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.969176Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.970216Z","level":"info","event":"  3. 'Really feeling the love' - Savannah Guthrie returns to NBC","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.970884Z","level":"info","event":"     Summary   : Analysis unavailable","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.971606Z","level":"info","event":"     Sentiment : NEUTRAL - N/A","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.972053Z","level":"info","event":"     Category  : general","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.972591Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.973031Z","level":"info","event":"  4. Emergency jabs after 100 children die of suspected measles i","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.973502Z","level":"info","event":"     Summary   : Analysis unavailable","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.973989Z","level":"info","event":"     Sentiment : NEUTRAL - N/A","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.974442Z","level":"info","event":"     Category  : general","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.975064Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.975501Z","level":"info","event":"  5. DR Congo agrees to take deportees from the US","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.976071Z","level":"info","event":"     Summary   : Analysis unavailable","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.976990Z","level":"info","event":"     Sentiment : NEUTRAL - N/A","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.977711Z","level":"info","event":"     Category  : general","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.978360Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.979393Z","level":"info","event":"==========================================","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:40.951563Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-04-06T14:30:41.012865Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:41.014111Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-04-06T14:30:41.014897Z","level":"info","event":"Task operator:<Task(PythonOperator): ai_daily_report>","logger":"task.stdout"}

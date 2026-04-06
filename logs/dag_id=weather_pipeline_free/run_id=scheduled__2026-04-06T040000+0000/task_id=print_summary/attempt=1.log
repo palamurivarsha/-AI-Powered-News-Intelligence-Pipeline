@@ -1,0 +1,20 @@
+{"timestamp":"2026-04-06T04:00:12.079411Z","level":"info","event":"Stats instance was created in PID 7 but accessed in PID 855. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-04-06T04:00:12.441730Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-04-06T04:00:12.444228Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/weather_pipeline.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-06T04:00:12.466619Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/weather_pipeline.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2026-04-06T04:00:12.508870Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-04-06T04:00:12.509804Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-04-06T04:00:12.510805Z","level":"info","event":"Current task name:print_summary","logger":"task.stdout"}
+{"timestamp":"2026-04-06T04:00:12.511536Z","level":"info","event":"Dag name:weather_pipeline_free","logger":"task.stdout"}
+{"timestamp":"2026-04-06T04:00:12.527375Z","level":"info","event":"======== WEATHER SUMMARY ========","logger":"task.stdout"}
+{"timestamp":"2026-04-06T04:00:12.528322Z","level":"info","event":"  City        : London","logger":"task.stdout"}
+{"timestamp":"2026-04-06T04:00:12.529058Z","level":"info","event":"  Temperature : 5.4C","logger":"task.stdout"}
+{"timestamp":"2026-04-06T04:00:12.529701Z","level":"info","event":"  Wind Speed  : 5.0 km/h","logger":"task.stdout"}
+{"timestamp":"2026-04-06T04:00:12.530272Z","level":"info","event":"  Direction   : 210 degrees","logger":"task.stdout"}
+{"timestamp":"2026-04-06T04:00:12.531117Z","level":"info","event":"  Condition   : Clear sky","logger":"task.stdout"}
+{"timestamp":"2026-04-06T04:00:12.531873Z","level":"info","event":"  Timestamp   : 2026-04-06 04:00:08","logger":"task.stdout"}
+{"timestamp":"2026-04-06T04:00:12.532682Z","level":"info","event":"==================================","logger":"task.stdout"}
+{"timestamp":"2026-04-06T04:00:12.527845Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-04-06T04:00:12.556562Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-04-06T04:00:12.557518Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-04-06T04:00:12.558372Z","level":"info","event":"Task operator:<Task(PythonOperator): print_summary>","logger":"task.stdout"}

@@ -1,0 +1,33 @@
+{"timestamp":"2026-04-06T02:59:51.089004Z","level":"info","event":"Stats instance was created in PID 7 but accessed in PID 155. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-04-06T02:59:51.726432Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-04-06T02:59:51.730604Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ai_news_pipeline.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-06T02:59:51.762262Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/ai_news_pipeline.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2026-04-06T02:59:51.807427Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:51.808330Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:51.809054Z","level":"info","event":"Current task name:ai_analyze","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:51.809838Z","level":"info","event":"Dag name:ai_news_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:51.835393Z","level":"info","event":"Analyzing 1/10: Trump issues expletive-laden threat to Iran over H...","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:52.286760Z","level":"info","event":"AI analysis failed: 'candidates'","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:52.288235Z","level":"info","event":"Analyzing 2/10: How rescue of US airman in remote part of Iran unf...","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:52.529521Z","level":"info","event":"AI analysis failed: 'candidates'","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:52.531639Z","level":"info","event":"Analyzing 3/10: Trump declares victory after rescue but threats to...","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:52.776228Z","level":"info","event":"AI analysis failed: 'candidates'","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:52.779592Z","level":"info","event":"Analyzing 4/10: Hungary alleges plot to blow up gas pipeline ahead...","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:53.067589Z","level":"info","event":"AI analysis failed: 'candidates'","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:53.070043Z","level":"info","event":"Analyzing 5/10: Pope Leo calls for global leaders to choose peace ...","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:53.384695Z","level":"info","event":"AI analysis failed: 'candidates'","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:53.388863Z","level":"info","event":"Analyzing 6/10: Cambodia unveils statue to honour famous landmine-...","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:53.803352Z","level":"info","event":"AI analysis failed: 'candidates'","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:53.805663Z","level":"info","event":"Analyzing 7/10: Artemis's stunning Moon pictures - science or holi...","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:54.122927Z","level":"info","event":"AI analysis failed: 'candidates'","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:54.125318Z","level":"info","event":"Analyzing 8/10: AI videos fuel rhetoric as Orbán bids for four mor...","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:54.323682Z","level":"info","event":"AI analysis failed: 'candidates'","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:54.326475Z","level":"info","event":"Analyzing 9/10: Man charged over fatal shooting of baby in pram in...","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:54.523850Z","level":"info","event":"AI analysis failed: 'candidates'","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:54.528224Z","level":"info","event":"Analyzing 10/10: German males under 45 may need military approval f...","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:54.724885Z","level":"info","event":"AI analysis failed: 'candidates'","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:54.727231Z","level":"info","event":"AI analyzed 10 articles","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:54.754487Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-04-06T02:59:54.790387Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:54.791180Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:54.791932Z","level":"info","event":"Task operator:<Task(PythonOperator): ai_analyze>","logger":"task.stdout"}

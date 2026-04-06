@@ -1,0 +1,54 @@
+{"timestamp":"2026-04-06T02:59:57.958202Z","level":"info","event":"Stats instance was created in PID 7 but accessed in PID 166. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-04-06T02:59:58.594287Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-04-06T02:59:58.596845Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ai_news_pipeline.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-06T02:59:58.621256Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/ai_news_pipeline.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2026-04-06T02:59:58.689815Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.690866Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.691707Z","level":"info","event":"Current task name:ai_daily_report","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.693947Z","level":"info","event":"Dag name:ai_news_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.961044Z","level":"info","event":"Report error: 'candidates'","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.962886Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.966432Z","level":"info","event":"========= AI WORLD NEWS BRIEFING =========","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.967572Z","level":"info","event":"  Date       : 2026-04-06 02:59:58","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.968181Z","level":"info","event":"  Articles   : 10","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.968558Z","level":"info","event":"  Positive   : 0","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.968929Z","level":"info","event":"  Negative   : 0","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.969268Z","level":"info","event":"  Neutral    : 10","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.969657Z","level":"info","event":"  Categories : {'general': 10}","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.970076Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.970488Z","level":"info","event":"  AI BRIEFING:","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.970908Z","level":"info","event":"  Daily report generation failed.","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.971341Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.971692Z","level":"info","event":"  ARTICLE ANALYSIS:","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.972040Z","level":"info","event":"  ----------------------------------------","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.972557Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.973029Z","level":"info","event":"  1. Trump issues expletive-laden threat to Iran over Hormuz Stra","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.973422Z","level":"info","event":"     Summary   : Analysis unavailable","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.973813Z","level":"info","event":"     Sentiment : NEUTRAL - N/A","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.974360Z","level":"info","event":"     Category  : general","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.974765Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.975167Z","level":"info","event":"  2. How rescue of US airman in remote part of Iran unfolded","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.975637Z","level":"info","event":"     Summary   : Analysis unavailable","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.976107Z","level":"info","event":"     Sentiment : NEUTRAL - N/A","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.976457Z","level":"info","event":"     Category  : general","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.976781Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.977155Z","level":"info","event":"  3. Trump declares victory after rescue but threats to US operat","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.977610Z","level":"info","event":"     Summary   : Analysis unavailable","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.978006Z","level":"info","event":"     Sentiment : NEUTRAL - N/A","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.978334Z","level":"info","event":"     Category  : general","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.978688Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.979043Z","level":"info","event":"  4. Hungary alleges plot to blow up gas pipeline ahead of electi","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.979453Z","level":"info","event":"     Summary   : Analysis unavailable","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.979820Z","level":"info","event":"     Sentiment : NEUTRAL - N/A","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.980307Z","level":"info","event":"     Category  : general","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.980717Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.981156Z","level":"info","event":"  5. Pope Leo calls for global leaders to choose peace in his fir","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.981758Z","level":"info","event":"     Summary   : Analysis unavailable","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.982785Z","level":"info","event":"     Sentiment : NEUTRAL - N/A","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.983410Z","level":"info","event":"     Category  : general","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.983897Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.984302Z","level":"info","event":"==========================================","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:58.966471Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-04-06T02:59:59.018596Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:59.019274Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-04-06T02:59:59.019858Z","level":"info","event":"Task operator:<Task(PythonOperator): ai_daily_report>","logger":"task.stdout"}
