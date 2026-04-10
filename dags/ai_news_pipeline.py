@@ -8,7 +8,7 @@ import os
 import json
 
 # ✅ Paste your Gemini API key here
-GEMINI_API_KEY = "AIzaSyBCYky_R5gnobcwIyuAuEvE48m4_fo7GDE"
+GEMINI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxx"
 
 NEWS_FEEDS = [
     "https://feeds.bbci.co.uk/news/world/rss.xml",
